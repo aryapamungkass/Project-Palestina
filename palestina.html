@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penggalangan Dana Untuk Palestina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        header {
+            background-color: blue;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        h2 {
+            color: black;
+        }
+        .payment-options {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .payment-option {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .payment-option:hover {
+            transform: scale(1.05);
+        }
+        .payment-option img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+        .payment-option button {
+            background-color: white;
+            color: black;
+            border: #ddd;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+
+        }
+        .payment-option button:hover {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Penggalangan Dana Untuk Palestina</h1>
+    <p>Berikan donasi Anda untuk membantu saudara-saudara kita di Palestina</p>
+</header>
+
+<div class="container">
+    <h2>Pilih Metode Pembayaran</h2>
+    <div class="payment-options">
+        <!-- Kartu ATM -->
+        <div class="payment-option">
+            <img src="atm.jpeg" alt="ATM">
+            <h3>Bayar dengan Kartu ATM</h3>
+            <button onclick="alert('Anda memilih pembayaran dengan Kartu ATM')">Pilih</button>
+        </div>
+
+        <!-- ShopeePay -->
+        <div class="payment-option">
+            <img src="shopepay.png" alt="ShopeePay">
+            <h3>Bayar dengan ShopeePay</h3>
+            <button onclick="alert('Anda memilih pembayaran dengan ShopeePay')">Pilih</button>
+        </div>
+
+        <!-- GoPay -->
+        <div class="payment-option">
+            <img src="gopay.png" alt="GoPay">
+            <h3>Bayar dengan GoPay</h3>
+            <button onclick="alert('Anda memilih pembayaran dengan GoPay')">Pilih</button>
+        </div>
+
+        <!-- Cash -->
+        <div class="payment-option">
+            <img src="cashh.png" alt="Cash">
+            <h3>Bayar dengan Cash</h3>
+            <button onclick="alert('Anda memilih pembayaran dengan Cash')">Pilih</button>
+        </div>
+       </div>
+</div>
+
+</body>
+</html>
